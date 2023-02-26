@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>PRO151</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script> 
+    
+    <script src="./js/Base.js"></script>
+    <script src="./js/Car.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-scene background="color:#000000">
+            <!-- CAMERA -->
+            <a-camera position="0 0 8">
+        
+            </a-camera>
+            
+            <!-- PLANE BASE --> 
+            <a-entity position="0 0 0" rotation="0 0 0" base></a-entity>
+            <!-- CAR MODEL -->
+            <a-entity position="0 0 0" rotation="0 0 0" car-model></a-entity>
+          </a-scene>
+    </a-scene>
+</body>
+
+</html>
